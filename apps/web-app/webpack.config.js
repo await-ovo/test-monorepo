@@ -7,10 +7,8 @@ module.exports = {
   entry: {
     app: path.resolve('./src/index.tsx')
   },
-  devServer: {
-    dev: {
-      writeToDisk: true,
-    }
+  devServer: { 
+    writeToDisk: true,
   },
   devtool: 'cheap-module-source-map',
   resolve: {
